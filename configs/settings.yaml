@@ -1,0 +1,6 @@
+project_name: "GenVision"
+source_folder: "source-images"
+destination_folder: "synthetic-images"
+prompts:
+  - "Change to rainy day"
+  - "Add sunset lighting"
