@@ -7,3 +7,4 @@ data/synthetic/*
 # AI README Generator outputs
 codesummary.json
 codesummary.pdf
+IAgen/
