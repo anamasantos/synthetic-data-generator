@@ -8,3 +8,4 @@ data/synthetic/*
 codesummary.json
 codesummary.pdf
 IAgen/
+*/__pycache__/*
