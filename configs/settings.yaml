@@ -1,6 +1,18 @@
 project_name: "GenVision"
-source_folder: "source-images"
-destination_folder: "synthetic-images"
-prompts:
-  - "Change to rainy day"
-  - "Add sunset lighting"
+
+# Configurações de Origem
+sources_folder:
+  - folder_name: "Capacetes"
+    images_source: "images_sorces/capacetes"
+    prompts:
+      - "Altere para um dia chuvoso com reflexos no capacete"
+      - "Adicione iluminação de pôr do sol intensa"
+  
+  - folder_name: "Luvas"
+    images_source: "images_sorces/luvas"
+    prompts:
+      - "Simule ambiente de baixa luminosidade (noite)"
+      - "Adicione textura de poeira e desgaste nas luvas"
+
+# Configuração de Destino
+destination_folder: "images_results"
